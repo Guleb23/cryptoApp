@@ -43,7 +43,7 @@ export default function LoginPage() {
                 >
                     <div className="flex flex-col w-full">
                         <div className='text-center m-auto md:m-8'>
-                            <img src='/src/assets/images/LogRegLogo.svg' />
+                            <img src='/src/assets/images/logreglogo.svg' />
                         </div>
                     </div>
                     <div className="w-full md:w-full lg:w-9/12 mx-auto md:mx-0">
