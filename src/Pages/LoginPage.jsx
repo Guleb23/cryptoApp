@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import { createAPIEndpoint, ENDPOINTS } from '../Api/Index';
 import useStateContext from '../Api/useStateContext';
+import { logreglogo } from '../assets/images';
 
 const getFreshModel = () => ({
     id: 0,
@@ -43,7 +44,7 @@ export default function LoginPage() {
                 >
                     <div className="flex flex-col w-full">
                         <div className='text-center m-auto md:m-8'>
-                            <img src='/src/assets/images/logreglogo.svg' />
+                            <img src={logreglogo} />
                         </div>
                     </div>
                     <div className="w-full md:w-full lg:w-9/12 mx-auto md:mx-0">
