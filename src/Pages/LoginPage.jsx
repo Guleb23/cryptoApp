@@ -25,9 +25,14 @@ export default function LoginPage() {
         }
         createAPIEndpoint(ENDPOINTS.login).fetchLogin(userName, userPassword).then(res => {
             setContext(res.data);
+            navigation("/productsPage")
             console.log(res.data.id);
+        }).catch(e => {
+            if (e.response.status == 404) {
+                alert("Пользователя не существует");
+            }
         });
-        navigation("/productsPage")
+
 
     }
     return (
