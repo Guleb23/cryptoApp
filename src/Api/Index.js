@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BASE_URL = 'https://localhost:7262/';
+export const BASE_URL = 'https://guleb23-apiforcrypto-0fc8.twc1.net/';
 
 export const ENDPOINTS = {
     users: 'Users',
